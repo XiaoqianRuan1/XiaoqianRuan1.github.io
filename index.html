@@ -49,13 +49,47 @@
       color: #3498db;
       text-decoration: none;
     }
+  .profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 2rem;
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.profile-intro {
+  max-width: 600px;
+  text-align: left;
+}
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Xiaoqian Ruan</h1>
-  <p>Machine Learning • 3D Vision • Researcher</p>
+  <header>
+  <div class="profile-container">
+    <img src="images/your-photo.jpg" alt="Xiaoqian Ruan" class="profile-pic">
+    <div class="profile-intro">
+      <h1>Xiaoqian Ruan</h1>
+      <p>👩‍💻 Machine Learning • 3D Vision • Researcher</p>
+      <p>
+        I'm a researcher working on 3D reconstruction, semantic segmentation, and neural representations.
+        I enjoy solving hard problems and building tools that bridge geometry and AI.
+      </p>
+    </div>
+  </div>
+</header>
 </header>
 
 <section class="section">
