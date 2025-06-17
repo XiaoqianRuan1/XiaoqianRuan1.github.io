@@ -87,6 +87,33 @@
   color: #007acc;
   font-weight: bold;
 }
+.research-card {
+  display: flex;
+  align-items: center;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.research-card img {
+  width: 160px;              /* fixed image width */
+  height: 120px;             /* fixed image height */
+  object-fit: cover;         /* crop nicely without stretching */
+  border-radius: 8px;
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+}
+
+.research-info {
+  flex: 1;
+}
+
+.research-info h3 {
+  margin: 0 0 0.5rem;
+}
   </style>
 </head>
 <body>
