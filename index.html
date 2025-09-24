@@ -60,11 +60,13 @@
   margin: auto;
 }
 
-.profile-wrapper{
-  width: 180px;
-  height: 180px;
-  overflow: hidden;        /* prevents image spill */
-  border-radius: 50%;      /* ensures container is circular too */
+.profile-wrapper {
+  width: 20vw;       /* 20% of viewport width */
+  height: 20vw;
+  max-width: 180px;  /* never larger than 180px */
+  max-height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
 }
     
 .profile-pic {
